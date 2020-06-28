@@ -51,6 +51,10 @@ public class Program {
 		String monthAndYear = sc.next();
 		int month = Integer.parseInt(monthAndYear.substring(0, 2));
 		int year = Integer.parseInt(monthAndYear.substring(3));
+		/* aqui eu peguei o mês que eu digitei usando esse comando
+		 * int month = Integer.parseInt(monthAndYear.substring(0, 2)); esse (0, 2) seria a posição do número.
+		 * int year = Integer.parseInt(monthAndYear.substring(3)); e nesse outro foi o ano.
+		*/
 		
 		System.out.println("Name: " + worker.getName());
 		System.out.println("Department: " + worker.getDepartment().getName());
